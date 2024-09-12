@@ -1,0 +1,245 @@
+
+    body {
+        background-color: #000;
+        margin: 6px 0px 20px 0px;
+        font-family: Verdana;
+        font-size: 11px;
+        color: #E0E0E0;
+    }
+
+    a {
+        text-decoration: none;
+        color: #E0E0E0;
+    }
+
+    a:hover {
+        color: #ffc10d;
+    }
+
+    a:active {
+        color: #CC3300;
+    }
+
+    a:visited {
+        color: #E0E0E0;
+    }
+
+    #main {
+        width: 1000px;
+        min-height: 60px;
+        float: left;
+    }
+
+    #header {
+        width: 1000px;
+        min-height: 100px;
+        float: left;
+    }
+
+    #logo {
+        width: 200px;
+        min-height: 100px;
+        float: left;
+    }
+
+    #banner_01 {
+        width: 800px;
+        min-height: 100px;
+        float: left;
+        background-image: url('/uploads/banner_img/banner_01.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #menu {
+        width: 1000px;
+        min-height: 40px;
+        float: left;
+    }
+
+    #Menu3level {
+        width: 1000px;
+        min-height: 40px;
+        float: left;
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #Menu3level li {
+        width: auto;
+        min-height: 40px;
+        float: left;
+        position: relative;
+    }
+
+    #Menu3level li a {
+        width: 120px;
+        min-height: 40px;
+        float: left;
+        text-align: center;
+        line-height: 40px;
+        border-right: 1px solid #59BEFF;
+        border-left: 1px solid #59BEFF;
+        display: block;
+    }
+
+    #Menu3level li a:hover {
+        background-color: #59BEFF;
+    }
+
+    #content {
+        width: 1000px;
+        min-height: 40px;
+        float: left;
+    }
+
+    #left_column {
+        width: 200px;
+        min-height: 40px;
+        float: left;
+    }
+
+    #left_column_top {
+        width: 200px;
+        min-height: 200px;
+        float: left;
+    }
+
+    #left_column_body {
+        width: 200px;
+        min-height: 40px;
+        float: left;
+    }
+
+    #left_column_bottom {
+        width: 200px;
+        min-height: 40px;
+        float: left;
+    }
+
+    #center_column {
+        width: 780px;
+        min-height: 40px;
+        float: left;
+    }
+
+    #detail_area {
+        width: 780px;
+        min-height: 40px;
+        float: left;
+    }
+
+    #service_name {
+        width: 780px;
+        min-height: 40px;
+        float: left;
+        background-color: #032136;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #intro {
+        width: 780px;
+        min-height: 40px;
+        float: left;
+    }
+    #floating_banner_left {
+        left: 0px;
+    }
+
+    #floating_banner_right {
+        right: 0px;
+    }
+
+    #floating_banner_left_content,
+    #floating_banner_right_content {
+        padding: 10px;
+    }
+
+    #service_01,
+    #service_02,
+    #service_03,
+    #service_04,
+    #service_05,
+    #service_06,
+    #service_07,
+    #product_01,
+    #product_02,
+    #product_03,
+    #product_04,
+    #product_05,
+    #product_06 {
+        height: 120px;
+        border-bottom: 1px solid #59BEFF;
+        padding: 10px;
+    }
+
+    #service_01:hover,
+    #service_02:hover,
+    #service_03:hover,
+    #service_04:hover,
+    #service_05:hover,
+    #service_06:hover,
+    #service_07:hover,
+    #product_01:hover,
+    #product_02:hover,
+    #product_03:hover,
+    #product_04:hover,
+    #product_05:hover,
+    #product_06:hover {
+        background-color: #59BEFF;
+    }
+
+    #service_name {
+        padding: 20px;
+    }
+
+    #group_menu {
+        margin-top: 20px;
+    }
+
+    #group_menu ul {
+        padding-left: 0px;
+    }
+
+    #group_menu li {
+        float: left;
+        min-width: 120px;
+        margin-right: 16px;
+    }
+
+    #group_menu li a {
+        color: #999;
+    }
+
+    #group_menu li a:hover {
+        color: #f79418;
+    }
+
+    #footer {
+        background-color: #032136;
+        padding: 20px;
+        color: #f79418;
+        font-size: 11px;
+        text-transform: uppercase;
+    }
+
+    #footer a {
+        color: #999;
+    }
+
+    #footer a:hover {
+        color: #f79418;
+    }
+
+    #autocolor {
+        background-color: rgb(0, 60, 255);
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    #autocolor marquee {
+        height: 50px;
+        text-align: center;
+    }

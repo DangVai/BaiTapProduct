@@ -1,0 +1,10 @@
+#tbl{
+    border: 1px solid black;
+}
+#tbl tr th{
+    border: 1px solid black;
+    width: 150px;
+}
+tr{
+    border: 1px solid black;
+}
